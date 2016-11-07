@@ -1,9 +1,8 @@
-# DomainJoinedHDInsight
-Configuration tool to setup domain joined HDInsight clusters
+# Configuration tool to setup domain joined HDInsight clusters
 
 
 
-To edit the PowerShell script
+# To edit the PowerShell script
 
 Open run.ps1 using Windows PowerShell ISE or any text editor.
 Fill the values for the following variables:
@@ -32,7 +31,7 @@ $ClusterUsersGroups – The common name of the security groups from your AD that
 $OrganizationalUnitName - The organizational unit in the domain, within which you want to place the HDInsight cluster VMs and the service principals used by the cluster. The PowerShell script will create this OU if it does not exist. For example, “HDInsightOU”.
 Save the changes.
 
-To run the script
+# To run the script
 
 Run Windows PowerShell as administrator.
 Browse to the folder of run.ps1.
